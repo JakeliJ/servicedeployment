@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Deploy to Render
-      uses: servicedeployment/deploy-to-render@v1
+      uses: JorgeLNJunior/render-deploy@v1.4.6
       with:
         api_key: ${{ secrets.RENDER_API_KEY }}
         service_id: ${{ secrets.RENDER_SERVICE_ID }}
